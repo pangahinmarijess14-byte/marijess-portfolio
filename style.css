@@ -22,6 +22,13 @@ margin:auto;
 padding:40px 0;
 }
 
+/* GLOBAL IMAGE FIX */
+img{
+max-width:100%;
+height:auto;
+display:block;
+}
+
 /* NAVIGATION */
 
 .nav{
@@ -235,7 +242,6 @@ height:180px;
 object-fit:cover;
 border-radius:5px;
 margin-bottom:12px;
-display:block;
 }
 
 .project-card h3{
@@ -342,6 +348,7 @@ grid-template-columns:1fr;
 }
 
 .project-card img{
+width:100%;
 height:auto;
 max-width:100%;
 }
