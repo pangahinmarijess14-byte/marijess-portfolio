@@ -235,6 +235,7 @@ height:180px;
 object-fit:cover;
 border-radius:5px;
 margin-bottom:12px;
+display:block;
 }
 
 .project-card h3{
@@ -298,4 +299,59 @@ background:#3a3f45;
 color:white;
 padding:15px;
 margin-top:40px;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width:768px){
+
+.nav-container{
+flex-direction:column;
+gap:10px;
+}
+
+.nav-links{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.header-container{
+flex-direction:column;
+text-align:center;
+}
+
+.profile img{
+width:130px;
+height:130px;
+}
+
+.intro h1{
+font-size:26px;
+}
+
+.intro h2{
+font-size:18px;
+}
+
+.skills-grid{
+grid-template-columns:1fr;
+}
+
+.project-grid{
+grid-template-columns:1fr;
+}
+
+.project-card img{
+height:auto;
+max-width:100%;
+}
+
+.contact-buttons{
+flex-direction:column;
+}
+
+.btn{
+width:100%;
+text-align:center;
+}
 }
